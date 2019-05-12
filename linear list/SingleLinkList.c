@@ -9,7 +9,7 @@ pNODE CreateSgLinkList(void) {
     pNODE pHead = (pNODE)malloc(sizeof(NODE));
 
     if(pHead == NULL) {
-        printf("内存分配失败!\n");
+        printf("内存分配失败！\n");
         return NULL;
     }
 

@@ -84,7 +84,7 @@ int InsertEleDbLinkList(pNODE pHead, int pos, int data) {
         pNew = (pNODE)malloc(sizeof(NODE));
         
         if(pNew == NULL) {
-            printf("内存分配失败!\n");
+            printf("内存分配失败！\n");
             return 0;
         }
 

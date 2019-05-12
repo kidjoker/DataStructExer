@@ -1,1 +1,4 @@
-#include
+#ifndef ONE_WAY_CIRCLE_LINK_LIST_H
+#define ONE_WAY_CIRCLE_LINK_LIST_H
+
+#

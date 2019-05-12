@@ -25,7 +25,7 @@ int InsertEleDbLinkList(pNODE pHeader, int pos, int data);
 //从链表删除节点
 int DeleteEleDbLinkList(pNODE pHeader, int pos);
 
-//删除整个链表，释放内存
+//删除整个链表,释放内存
 void freeMemory(pNODE *ppHead);
 
 #endif

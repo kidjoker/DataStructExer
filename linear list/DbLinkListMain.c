@@ -11,7 +11,7 @@ int main(void) {
  
 	flag = IsEmptyDbLinkList(head);
 	if (flag)
-		printf("双向链表为空！\n");
+		printf("双向链表为空!\n");
 	else
 	{
 		length = GetLengthDbLinkList(head);

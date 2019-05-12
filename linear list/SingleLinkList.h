@@ -24,7 +24,7 @@ int InsertEleSgLinkList(pNODE pHead, int pos, int data);
 //从单向链表删除节点
 int DeleteEleSgLinkList(pNODE pHead, int pos);
  
-//删除整个链表，释放内存
+//删除整个链表,释放内存
 void FreeMemory(pNODE *ppHead);
 
 #endif

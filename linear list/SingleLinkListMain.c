@@ -9,7 +9,7 @@ int main(void) {
 
     flag = IsEmptySgLinkList(pHead);
     if(flag) {
-        printf("单向链表为空!\n");
+        printf("单向链表为空！\n");
     }
     else {
         length = GetLengthSgLinkList(pHead);
